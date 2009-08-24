@@ -2,6 +2,10 @@
 
 Divan is a CakePHP DataSource for the wonderful document-oriented database, CouchDB.
 
+## Requirements
+
+You'll need a toasty copy of CouchDB (tested with 0.9.0), and PHP 5.2 or greater for some json_(encode|decode) goodness. I'm sure you could cheat and use a lower version of PHP5 and some funky library to do the same thing, but nobody likes a cheater.
+
 ## Usage
 
 In CakePHP 1.2, datasources don't get any plugin-love - it's currently impossible to load a datasource included in a plugin into your main application. I know, it's sad. I cried a little.
@@ -11,4 +15,4 @@ Luckily, we're planning on fixing that in 1.3 (gotta _earn_ that money all you g
 Until then, there is no un-hacky way to get Divan to work in it's current plugin-esque incantation. You will need either symlinks, copy/paste-fu, or perhaps some Mayan shaman tricks sprinkled with some good ol' black magic to get things to work. But don't worry, that's pretty much how I'm doing it right now. And if _I'm_ doing it, then it _must_ be right, right*?
 
 
-*: I should really invent a shorthand for that end-of-sentence structure. Maybe [right]^2? Hopefully that wont anger the grammar police enough for me to end up in the trunk of their unmarked dictionary van. 
+*: I should really invent a shorthand for that end-of-sentence structure. Maybe [right]^2? Hopefully that wont anger the grammar police enough for me to end up in the trunk of their unmarked dictionary van.
